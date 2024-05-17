@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+     /* outline: 1px solid red; */
+    font-family: sans-serif;
+}
+.heading{
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-color: white;
+    width: 900px;
+    margin-left: auto;
+margin-right: auto;
+padding: 2rem  4rem;
+
+
+}
+.input{
+    display: inline-block;
+}
+.room, .guests{
+    margin-top: 1rem;
+}
+.form{
+    display: flex;
+    margin-top: 3rem;
+}
+.upperpart, .lowerpart{
+    width: 50%;
+}
+
+.whatever{
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 4px;
+    border: 1px solid rgb(241, 238, 238);
+}
+
+label{
+    font-size: 12px;
+}
+.however{
+    width: 97%;
+}
+.flex{
+    display: flex;
+}
+.somehow{
+    margin-left: 10px;
+}
+.input-cal{
+    width: 49%;
+}
+.input-cal2{
+    width: 94%;
+}
+.option2{
+    margin-left: 12px;
+}
+textarea{
+    margin-bottom: 10px;
+}
+.submit{
+    margin-left: 50%; 
+     margin-right: 40%; 
+    font-size: 16px;
+    border-color: #18BD5B;
+    background-color: #18BD5B;
+    padding: 9px 15px;
+    width: 30%;
+    font-size: 1em;
+    border-radius: 4px;
+    border: 1px solid;
+    box-shadow: none;
+    color: #fff;
+    justify-content: center;
+}
+legend{
+    /* margin-left: 10px; */
+}

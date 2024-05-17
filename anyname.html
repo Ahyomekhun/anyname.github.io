@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="anyname.css" />
+    <title>Hotel Booking</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <div class="heading">
+        <h1>Hotel Booking</h1>
+        <p>Experience something new every moment</p>
+      </div>
+      <div>
+        <div>
+          <form>
+            <div class="form">
+              <div class="upperpart">
+                <h4>Name:</h4>
+                <div>
+                  <div class="input">
+                    <input class="whatever"
+                      for="first name"
+                      id="firstname"
+                      name="firstname"
+                      required
+                    />
+                    <br />
+                    <label for="name" id="Name">First Name</label>
+                  </div>
+                  <div class="input">
+                    <input class="whatever"
+                      for="last name"
+                      id="lastname"
+                      name="lastname"
+                      required
+                    />
+                    <br />
+                    <label for="name" id="Name">Last Name</label>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="room">Room Type</h4>
+                  <select class="whatever however "  >
+                    <option value="">(select one)</option>
+                    <option value="1">Standard Room (1 to 2 People)</option>
+                    <option value="2">Family Room (1 to 4 People)</option>
+                    <option value="3">Private Room (1 to 3 People)</option>
+                    <option value="4">Mix Dorm Room (6 People)</option>
+                    <option value="5">Female Dorm Room (6 People)</option>
+                    <option value="6">Male Dorm Room (6 People)</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+            </div>
+            <div class="lowerpart">
+                  <h4 for="email" id="email">Email</h4>
+                <div class="email">
+                  <input class="whatever however"
+                    for="email"
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="ex:myname@gmail.com"
+                    required
+                  />
+                  <br />
+                  <label for="email" id="email">example@example.com</label>
+                </div>
+                <div>
+                  <h4 for="guests" class="guests">Number of Guests</h4>
+                </div>
+                <div>
+                  <input class="whatever however"
+                    for="number of guests"
+                    id="number of guests "
+                    required
+                    placeholder="eg.,2 3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+                <h4 for="date" id="date"  class="room">Arrival Date & Time</h4>
+            </div>
+            <div class="flex">
+            
+            <div class="input-cal">
+                <input class="whatever input-cal2" type="date"data-format="mmddyy" data-seperator="-" placeholder="MM-DD-YY" required autocomplete="off">
+                    <br>
+                    <label for="date" id="date">Date</label>
+            </div>
+            <div >
+                <input type="time" class="whatever somehow" data-format="hh:mm" data-seperator=":" placeholder="HH:MM" required data-version="v2" >
+                <br>
+                <label class="somehow" for="time" id="time">Hour minutes</label>
+
+            </div>
+            <div>
+                <select class="whatever somehow">
+                    <option value="Am">AM</option>
+                    <option value="Pm">PM</option>
+                </select>
+            </div>
+        </div>
+        <div> 
+          <div>
+    <h4 for="depature" id="departure"  class="room">Departure Date</h4>
+</div>
+<div class="flex">
+<div>
+  <select for="months" id="months" required class="whatever">
+    <option value="">(Please select month)</option>
+    <option value="m1">January</option>
+    <option value="m2">February</option>
+    <option value="m3">March</option>
+    <option value="m4">April</option>
+    <option value="m5">May</option>
+    <option value="m6">June</option>
+    <option value="m7">July</option>
+    <option value="m8">August</option>
+    <option value="m9">September</option>
+    <option value="m10">October</option>
+    <option value="m11">November</option>
+    <option value="m12">December</option>
+</select>
+<br>
+<label for="months" id="months" class="somehow">Month</label>
+</div>
+<div>
+  <select for="day" id="day" type="number" class="whatever somehow" required>
+    <option value="">(Please select day)</option>
+    <option value="d1">1</option>
+    <option value="d2">2</option>
+    <option value="d3">3</option>
+    <option value="d4">4</option>
+    <option value="d5">5</option>
+    <option value="d6">6</option>
+    <option value="d7">7</option>
+    <option value="d8">8</option>
+    <option value="d9">9</option>
+    <option value="d10">10</option>
+    <option value="d11">11</option>
+    <option value="d12">12</option>
+    <option value="d13">13</option>
+    <option value="d14">14</option>
+    <option value="d15">15</option>
+    <option value="d16">16</option>
+    <option value="d17">17</option>
+    <option value="d18">18</option>
+    <option value="d19">19</option>
+    <option value="d20">20</option>
+    <option value="d21">21</option>
+    <option value="d22">22</option>
+    <option value="d23">23</option>
+    <option value="d24">24</option>
+    <option value="d25">25</option>
+    <option value="d26">26</option>
+    <option value="d27">27</option>
+    <option value="d28">28</option>
+    <option value="d29">29</option>
+    <option value="d30">30</option>
+    <option value="d31">31</option>
+</select>
+<br>
+<label for="days" id="days" class="somehow">Day</label>
+</div>
+<div>
+  <select for="year" id="year" class="whatever somehow" required>
+    <option value="">(Please select year)</option>
+    <option value="y1">2024</option>
+    <option value="y2">2023</option>
+    <option value="y3">2022</option>
+    <option value="y4">2021</option>
+    <option value="y5">2020</option>
+</select>
+<br>
+<label for="year" id="year" class="somehow" >Year</label>
+</div>
+        </div>
+        <div>
+          <div>
+            <h4 for="pickup" id="pickup"  class="room">Free pickup</h4>
+            <br>
+          </div>
+          <div class="flex">
+          <div>
+            <legend for="option1"><input id="option1" type="radio" name="radioGroup" class="inline" value="option1"/>Yes Please! - Pick me up on arrival</legend>
+          </div>
+          <div>
+            <legend for="option2" ><input id="option2" class="option2"  type="radio" name="radioGroup" class="inline" value="option2"/>No!Thanks.-I'll make my own way there</legend>
+          </div>
+        </div>
+        <div>
+        <div>
+          <h4 for="special requests" id="special requests"  class="room">Special requests</h4>  
+        </div>
+        <div>
+          <textarea type="textarea" for="special requests" id="special requests" rows="10" cols="90" class="requests"></textarea>
+        </div>
+      </div>
+      <div >
+        <input class="submit" for="submit" id="submit" type="submit" value="Submit" required >
+      </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
